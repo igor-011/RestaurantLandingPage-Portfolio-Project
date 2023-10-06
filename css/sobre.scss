@@ -1,0 +1,357 @@
+@use "style.scss";
+
+body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #888; /* Scrollbar thumb color */
+    border-radius: 4px;
+  }
+  
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Scrollbar thumb color on hover */
+  }
+@media(min-width: 1024px){
+  :root{
+    font-size: 16px;
+  }
+  .divid{
+    color: transparent;
+}
+.title{
+    font-size: 2.8rem;
+    position: absolute;
+    left: 39%;
+    top:  10%;   
+}  
+body{
+    background-color: rgb(44, 44, 44) ;
+}
+.ima{
+    position: absolute;
+    left: 15%;
+    object-fit: cover;
+    height: 750px;
+    width: 70%;
+}
+.restaurante{
+    height: 30%;
+    width: 40%;
+    object-fit: cover;
+}
+.text{
+    height: 64%;
+    width: 30%;
+    position: absolute;
+    left: 33%;
+    top: 16%;
+}
+.font{
+    font-size: 1.25rem;
+}
+.detalhes{
+    width: 90%;
+    color: white;
+    text-shadow: 3px 3px 4px  black;
+    position: absolute;
+    left: 5%;
+}
+.jackquin{
+    object-fit: cover;
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    top: 110%;
+}
+.jackquin-2{
+    object-fit: cover;
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 173%;
+}
+.jackquin-3{
+    width: 0%;
+    height: 0%;
+}
+.jackquin-4{
+    object-fit: cover;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 232%;
+}
+.f-white{
+    color: white;
+}
+.j-falencia{
+    position:absolute;
+    left: 43%;
+    top: 110%;
+}
+.j-text{
+    position:absolute;
+    font-size: 1.1rem;
+    width: 50%;
+    left: 43%;
+    top: 122%;
+}
+.dias{
+    color: white;
+    position: absolute;
+    top: 358%;
+    left: 27%;
+}
+.local{
+    color: white;
+    position: absolute;
+    top: 358%;
+    left: 45%;
+}
+.contato{
+    color: white;
+    position: absolute;
+    top: 358%;
+    left: 67%;
+}
+.footer{
+    top: 342%;
+}
+}
+
+
+
+
+
+@media(min-width: 590px) and (max-width: 1023px){
+:root{
+    font-size: 14px;
+}  
+.divid{
+    color: transparent;
+}
+.title{
+    font-size: 2.8rem;
+    position: absolute;
+    left: 24%;
+    top:  7%;   
+}  
+body{
+    background-color: rgb(44, 44, 44) ;
+}
+.ima{
+    position: absolute;
+    object-fit: cover;
+    height: 750px;
+    width: 100%;
+}
+.restaurante{
+    height: 30%;
+    width: 40%;
+    object-fit: cover;
+}
+.text{
+    height: 45%;
+    width: 70%;
+    position: absolute;
+    left: 10%;
+    top: 11%;
+}
+.font{
+    font-size: 1.3rem;
+}
+.detalhes{
+    width: 90%;
+    color: white;
+    text-shadow: 4px 4px 4px  black;
+    position: absolute;
+    left: 5%;
+}
+
+.jackquin{
+    object-fit: cover;
+    width: 40%;
+    height: 72%;
+    position: absolute;
+    top: 111%;
+}
+.jackquin-2{
+    object-fit: cover;
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    top: 195%;
+}
+
+.jackquin-3{
+    width: 0%;
+    height: 0%;
+}
+.jackquin-4{
+    object-fit: cover;
+    width: 40%;
+    height: 120%;
+    position: absolute;
+    top: 272%;
+}
+.f-white{
+    color: white;
+}
+.j-falencia{
+    position:absolute;
+    left: 43%;
+    top: 110%;
+}
+.j-text{
+    position:absolute;
+    font-size: 1rem;
+    width: 50%;
+    left: 43%;
+    top: 122%;
+}
+.dias{
+    color: white;
+    position: absolute;
+    top: 434%;
+    left: 10%;
+}
+.local{
+    color: white;
+    position: absolute;
+    top: 434%;
+    left: 38%;
+}
+.contato{
+    color: white;
+    position: absolute;
+    top: 434%;
+    left: 67%;
+}
+.footer{
+    top: 399%;
+    height: 100%;
+}
+}
+
+
+
+@media(min-width: 300px)and (max-width: 589px){
+:root{
+    font-size: 12px;
+}  
+.divid{
+    color: transparent;
+    padding-top: 100%;
+}
+.d{
+    padding-top: 4%;
+}
+.h{
+    font-size: 2.0rem;
+    position: relative;
+    top: 30%
+}
+.title{
+    font-size: 2.4rem;
+    position: absolute;
+    left: 23%;
+    top:  10%;   
+}  
+body{
+    background-color: rgb(44, 44, 44) ;
+}
+.ima{
+    position: absolute;
+    object-fit: cover;
+    height: 750px;
+    width: 100%;
+}
+.text{
+    height: 65%;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+}
+.font{
+    font-size: 1.3rem;
+}
+.detalhes{
+    width: 90%;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 6px  rgb(0, 0, 0);
+    position: absolute;
+    left: 5%;
+}
+.jackquin{
+    object-fit: cover;
+    width: 90%;
+    height: 35%;
+    position: absolute;
+    left: 5%;
+    top: 111%;
+}
+.jackquin-2{
+    object-fit: cover;
+    width: 90%;
+    height: 35%;
+    position: absolute;
+    left: 5%;
+    top: 235%;
+}
+.jackquin-3{
+    object-fit: cover;
+    width: 90%;
+    height: 35%;
+    position: absolute;
+    left: 5%;
+    top: 400%;
+}
+.jackquin-4{
+    object-fit: cover;
+    width: 90%;
+    height: 35%;
+    position: absolute;
+    left: 5%;
+    top: 557%;
+}
+.f-white{
+    color: white;
+}
+.j-falencia{
+    font-size: 1.4rem;
+    width: 70%;
+    position:absolute;
+    left: 10%;
+    top: 101%;
+}
+.j-text{
+    position:absolute;
+    font-size: 1.3rem;
+    width: 80%;
+    left: 10%;
+    top: 147%;
+}
+.dias{
+    color: white;
+    position: absolute;
+    top: 676%;
+    left: 21%;
+}
+.local{
+    color: white;
+    position: absolute;
+    top: 695%;
+    left: 21%;
+}
+.contato{
+    color: white;
+    position: absolute;
+    top: 714%;
+    left: 20%;
+}
+.footer{
+    top: 664%;
+}
+}

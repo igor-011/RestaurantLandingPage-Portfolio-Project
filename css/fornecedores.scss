@@ -1,0 +1,283 @@
+@use "style.scss";
+body{
+    background-color: rgb(39, 39, 39);
+}
+body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #888; /* Scrollbar thumb color */
+    border-radius: 4px;
+  }
+  
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Scrollbar thumb color on hover */
+  }
+.title{
+    text-shadow: 2px 2px 4px black;
+}
+.title-text{
+    text-shadow: 2px 2px 4px black;
+}
+.dias{
+    text-shadow: 2px 2px 4px black;
+}
+.local{
+    text-shadow: 2px 2px 4px black;
+}
+.contato{
+    text-shadow: 2px 2px 4px black;
+}
+@media (min-width: 1024px){
+    :root{
+        font-size: 16px;
+    }
+    .title-text{
+        font-size: 1.8rem;
+    position: absolute;
+    left: 44%;
+    top: 20%;
+    
+}
+.ima{
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    height: 50%;
+    width: 100%;
+}
+.for-1{
+    object-fit: cover;
+    position: absolute;
+    top: 55%;
+    height: 63%;
+    width: 45%;
+}
+.for-2{
+    object-fit: cover;
+    position: absolute;
+    top: 124%;
+    height:55%;
+    width: 45%;
+}
+.for-3{
+    height: 0%;
+    width: 0%;
+}
+.for-4{
+    height: 0%;
+    width: 0%;
+}
+.for-5{
+    height: 0%;
+    width: 0%;
+}
+.for-6{
+    height: 0%;
+    width: 0%;
+}
+.fornece-story{
+    font-size: 1.2rem;
+    position: absolute;
+    color: white;
+    width: 47%;
+    top: 52%;
+    left: 48%;
+}
+.footer{
+    position: absolute;
+    top:183%;
+}
+.dias{
+    position: absolute;
+    top: 220%;
+}
+.local{
+    position: absolute;
+    top: 220%;
+}
+.contato{
+    position: absolute;
+    top: 220%;
+}
+}
+
+
+
+
+@media (min-width: 590px) and (max-width: 1023px){
+    :root{
+        font-size: 14px;
+    }
+    .title-text{
+    font-size: 1.8rem;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    
+}
+.ima{
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    height: 50%;
+    width: 100%;
+}
+.for-1{
+    object-fit: cover;
+    position: absolute;
+    top: 56%;
+    height: 79%;
+    width: 45%;
+}
+.for-2{
+    object-fit: cover;
+    position: absolute;
+    top: 140%;
+    height: 79%;
+    width: 45%;
+}
+.for-3{
+    object-fit: cover;
+    position: absolute;
+    top: 229%;
+    height: 68%;
+    width: 45%;
+}
+.for-4{
+    object-fit: cover;
+    position: absolute;
+    top: 300%;
+    height: 69%;
+    width: 45%;
+}
+.for-5{
+    height: 0%;
+    width: 0%;
+}
+.for-6{
+    height: 0%;
+    width: 0%;
+}
+.fornece-story{
+    font-size: 1.2rem;
+    position: absolute;
+    color: white;
+    width: 40%;
+    top: 53%;
+    left: 48%;
+}
+.footer{
+    position: absolute;
+    top:370%;
+}
+.dias{
+    position: absolute;
+    top: 395%;
+}
+.local{
+    position: absolute;
+    top: 395%;
+}
+.contato{
+    position: absolute;
+    top: 395%;
+}
+}
+
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 589px){
+    :root{
+        font-size: 12px;
+    }
+    .divid{
+        padding-top: 92%
+    }
+    .title-text{
+    font-size: 1.8rem;
+    position: absolute;
+    left: 28%;
+    top: 15%;
+    
+}
+.ima{
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    height: 50%;
+    width: 100%;
+}
+.for-1{
+    object-fit: cover;
+    position: absolute;
+    top: 192%;
+    left: 5%;
+    height: 35%;
+    width: 90%;
+}
+.for-2{
+    object-fit: cover;
+    position: absolute;
+    left: 5%;
+    top: 349%;
+    height: 34%;
+    width: 90%;
+}
+.for-3{
+    object-fit: cover;
+    position: absolute;
+    top: 227%;
+    height: 0%;
+    width: 0%;
+}
+.for-4{
+    object-fit: cover;
+    position: absolute;
+    top: 313%;
+    height: 0%;
+    width: 0%;
+}
+.for-5{
+    object-fit: cover;
+    position: absolute;
+    top: 399%;
+    height: 0%;
+    width: 0%;
+}
+.for-6{
+    object-fit: cover;
+    position: absolute;
+    top: 485%;
+    height: 0%;
+    width: 0%;
+}
+.fornece-story{
+    font-size: 1.3rem;
+    position: absolute;
+    color: white;
+    width: 80%;
+    top: 50%;
+    left: 10%;
+}
+.footer{
+    position: absolute;
+    top:385%;
+}
+.dias{
+    position: absolute;
+    top: 397%;
+}
+.local{
+    position: absolute;
+    top: 416%;
+}
+.contato{
+    position: absolute;
+    top: 434%;
+}
+}

@@ -1,0 +1,145 @@
+@media (min-width: 1024px){
+.ima{
+    padding-top: 0px;
+    background-color: black;
+    object-fit: cover;
+    height: 706px;
+    width: 100%;
+}
+.examples{
+    position: absolute;
+    right: 00;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bastidores{
+    position: absolute;
+    bottom: -470px;
+    color: white;
+    height: 53%;
+    width: 100%;
+}
+.Fornecedores{
+    position: absolute;
+    bottom: -900px;
+    color: white;
+    height: 53%;
+    width: 100%;
+}
+.Eventos{
+    position: absolute;
+    bottom: -1320px;
+    color: white;
+    height: 53%;
+    width: 100%;
+}
+.footer{
+    height: 620px;
+    width: 100%;
+    position: absolute;
+    top: 278%;
+    object-fit: cover;
+}
+}
+
+
+
+@media (min-width: 590px) and (max-width:1023px){
+.ima{
+    padding-top: 0px;
+    background-color: black;
+    object-fit: cover;
+    height: 640px;
+    width: 100%;
+}
+.examples{
+    position: absolute;
+    right: 00;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bastidores{
+    position: absolute;
+    bottom: -470px;
+    color: white;
+    height: 50%;
+    width: 100%;
+}
+.Fornecedores{
+    position: absolute;
+    bottom: -900px;
+    color: white;
+    height: 50%;
+    width: 100%;
+}
+.Eventos{
+    position: absolute;
+    bottom: -1320px;
+    color: white;
+    height: 50%;
+    width: 100%;
+}
+.footer{
+    height: 620px;
+    width: 100%;
+    position: absolute;
+    top: 270%;
+    object-fit: cover;
+}
+}
+
+
+
+
+@media(min-width: 300px) and (max-width: 589px){
+.ima{
+    padding-top: 0px;
+    background-color: black;
+    object-fit: cover;
+    height: 540px;
+    width: 100%;
+}
+.examples{
+    position: absolute;
+    right: 00;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bastidores{
+    position: absolute;
+    bottom: -470px;
+    color: white;
+    height: 55%;
+    width: 100%;
+}
+.Fornecedores{
+    position: absolute;
+    bottom: -915px;
+    color: white;
+    height: 55%;
+    width: 100%;
+}
+.Eventos{
+    position: absolute;
+    bottom: -1350px;
+    color: white;
+    height: 55%;
+    width: 100%;
+}
+.footer{
+    height: 620px;
+    width: 100%;
+    position: absolute;
+    top: 278%;
+    object-fit: cover;
+}
+}
