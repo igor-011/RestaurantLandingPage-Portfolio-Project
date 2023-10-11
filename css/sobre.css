@@ -1,45 +1,30 @@
 @media (min-width: 1024px) {
   .ima {
+    margin-left: 0.5%;
     padding-top: 0px;
     background-color: black;
     object-fit: cover;
-    height: 706px;
-    width: 100%;
+    height: 656px;
+    width: 99%;
   }
   .examples {
-    position: absolute;
-    right: 0;
-    bottom: 0px;
-    height: 100%;
+    height: 400px;
     width: 100%;
     object-fit: cover;
+    margin-bottom: 2%;
   }
-  .bastidores {
-    position: absolute;
-    bottom: -470px;
+  .pages {
+    margin-left: 0;
+    margin-bottom: 0%;
+    margin-right: 0;
     color: white;
-    height: 53%;
-    width: 100%;
-  }
-  .Fornecedores {
-    position: absolute;
-    bottom: -900px;
-    color: white;
-    height: 53%;
-    width: 100%;
-  }
-  .Eventos {
-    position: absolute;
-    bottom: -1320px;
-    color: white;
-    height: 53%;
-    width: 100%;
+    width: 99%;
+    margin-left: 0.5%;
   }
   .footer {
     height: 620px;
-    width: 100%;
-    position: absolute;
-    top: 278%;
+    width: 99%;
+    margin-left: 0.5%;
     object-fit: cover;
   }
 }
@@ -51,86 +36,50 @@
     height: 640px;
     width: 100%;
   }
+  .pages {
+    margin-right: 0;
+    color: white;
+    width: 99%;
+    margin-left: 0.5%;
+  }
   .examples {
-    position: absolute;
-    right: 0;
-    bottom: 0px;
-    height: 100%;
+    height: 300px;
     width: 100%;
     object-fit: cover;
-  }
-  .bastidores {
-    position: absolute;
-    bottom: -470px;
-    color: white;
-    height: 50%;
-    width: 100%;
-  }
-  .Fornecedores {
-    position: absolute;
-    bottom: -900px;
-    color: white;
-    height: 50%;
-    width: 100%;
-  }
-  .Eventos {
-    position: absolute;
-    bottom: -1320px;
-    color: white;
-    height: 50%;
-    width: 100%;
+    margin-bottom: 2%;
   }
   .footer {
     height: 620px;
     width: 100%;
-    position: absolute;
-    top: 270%;
     object-fit: cover;
+    margin-top: 1%;
   }
 }
-@media (min-width: 300px) and (max-width: 589px) {
+@media (min-width: 200px) and (max-width: 589px) {
   .ima {
     padding-top: 0px;
     background-color: black;
     object-fit: cover;
-    height: 540px;
+    height: 500px;
     width: 100%;
+  }
+  .pages {
+    color: white;
+    width: 99%;
+    margin-top: 2%;
+    margin-left: 0.5%;
   }
   .examples {
-    position: absolute;
-    right: 0;
-    bottom: 0px;
-    height: 100%;
+    height: 300px;
     width: 100%;
     object-fit: cover;
-  }
-  .bastidores {
-    position: absolute;
-    bottom: -470px;
-    color: white;
-    height: 55%;
-    width: 100%;
-  }
-  .Fornecedores {
-    position: absolute;
-    bottom: -915px;
-    color: white;
-    height: 55%;
-    width: 100%;
-  }
-  .Eventos {
-    position: absolute;
-    bottom: -1350px;
-    color: white;
-    height: 55%;
-    width: 100%;
+    margin-bottom: 3%;
   }
   .footer {
     height: 620px;
     width: 100%;
-    position: absolute;
-    top: 278%;
     object-fit: cover;
+    margin-top: 1%;
   }
 }
 body {
@@ -152,67 +101,56 @@ body::-webkit-scrollbar-thumb:hover {
   background-color: #555; /* Scrollbar thumb color on hover */
 }
 
+p {
+  margin: 5px;
+}
+
+.f-white {
+  color: white;
+}
+
+.container {
+  position: relative;
+}
+
+.texto {
+  position: absolute;
+  color: white;
+}
+
 button {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-weight: bold;
   border: none;
   height: 40px;
   width: 100px;
   background-color: transparent;
   color: white;
-  margin: 5px 25px 0px 0px;
 }
 
 button:hover {
   cursor: pointer;
 }
 
-h1 {
-  font-weight: bold;
-  margin: 0px;
-  padding: 0px;
-}
-
-.title {
+.text-shadow-light {
   text-shadow: 2px 2px 4px black;
 }
 
-.title-text {
-  text-shadow: 2px 2px 4px black;
-}
-
-.dias {
+.text-shadow-dark {
   text-shadow: 3px 3px 6px black;
-}
-
-.local {
-  text-shadow: 3px 3px 6px black;
-}
-
-.contato {
-  text-shadow: 3px 3px 6px black;
-}
-
-.Fornecedores {
-  text-shadow: 2px 2px 4px black;
-}
-
-.bastidores {
-  text-shadow: 2px 2px 4px black;
-}
-
-.Eventos {
-  text-shadow: 2px 2px 4px black;
-}
-
-.categories {
-  text-shadow: 2px 2px 4px black;
 }
 
 @media (min-width: 1024px) {
   :root {
     font-size: 16px;
   }
+  .pages-buttons {
+    position: absolute;
+    left: 39%;
+    margin-right: 10px;
+  }
+  .pages-buttons-space {
+    margin-right: 13px;
+  }
   .t-social {
     height: 25px;
     width: 25px;
@@ -223,95 +161,116 @@ h1 {
     object-fit: cover;
   }
   .u-s-T-media {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     position: absolute;
     top: 1%;
     right: 15%;
   }
   .u-s-I-media {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     position: absolute;
     top: 1%;
     right: 12%;
   }
   .title {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    display: flex;
     font-size: 2.8rem;
-    align-items: center;
     color: white;
-    font-weight: 900;
     position: absolute;
     left: 42%;
     top: 15%;
   }
   .title-text {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    display: flex;
     font-size: 2.4rem;
-    align-items: center;
     color: white;
-    font-weight: 900;
     position: absolute;
     left: 31%;
     top: 23%;
   }
   .text-between {
     display: block;
-    justify-content: center;
-    margin: 0px 0px 10px;
-    padding-top: 15px;
     font-size: 1.1rem;
-    font-family: Slabo;
-    position: absolute;
-    left: 20%;
-    width: 60%;
+    margin-left: 24%;
+    width: 55%;
     color: white;
   }
-  .sobre {
-    position: absolute;
-    right: 58%;
+  .container {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
   }
-  .fornecedores {
-    position: absolute;
-    right: 45%;
+  .image {
+    flex: 1;
+    max-width: 50%;
   }
-  .eventos {
-    position: absolute;
-    right: 32%;
+  .image img {
+    max-width: 100%;
+    height: 100%;
   }
-  .options {
-    position: absolute;
-    bottom: -1850px;
+  .texxt {
+    flex: 1;
+    max-width: 50%;
+    padding: 0 20px;
+  }
+  .tiltle {
+    margin: 0 0;
+  }
+  .catego {
     position: relative;
-    margin-left: 36%;
-    color: white;
-    font-size: 30px;
+    font-size: 2.5rem;
   }
-  .dias {
-    color: white;
-    position: absolute;
-    top: 304%;
-    left: 27%;
+  .categories {
+    position: relative;
+    bottom: 700%;
   }
-  .local {
-    color: white;
-    position: absolute;
-    top: 304%;
-    left: 45%;
+  /*.Horarios{
+      color: white;
+      position: absolute;
+      top: 290%;
+      left: 27%;
   }
-  .contato {
-    color: white;
-    position: absolute;
-    top: 304%;
-    left: 67%;
+  .local{
+      color: white;
+      position: absolute;
+      top: 290%;
+      left: 45%;
+  }
+  .contato{
+      color: white;
+      position: absolute;
+      top: 290%;
+      left: 67%;
+  }*/
+  .middle-text {
+    top: 50%; /* Vertically center */
+    left: 50%; /* Horizontally center */
+    transform: translate(-50%, -100%); /* Center both horizontally and vertically */
+  }
+  .left-text {
+    top: 50%; /* Vertically center */
+    left: 24%; /* Adjust the left position as needed */
+    transform: translate(0, -100%); /* Center vertically */
+  }
+  .right-text {
+    top: 50%; /* Vertically center */
+    right: 14%; /* Adjust the right position as needed */
+    transform: translate(0, -85%); /* Center vertically */
   }
 }
 @media (min-width: 590px) and (max-width: 1023px) {
   :root {
     font-size: 14px;
+  }
+  .pages-buttons {
+    position: absolute;
+    left: 30%;
+    margin-right: 10px;
+  }
+  .pages-buttons-space {
+    margin-right: 15px;
   }
   .t-social {
     height: 25px;
@@ -323,89 +282,94 @@ h1 {
     object-fit: cover;
   }
   .u-s-T-media {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     position: absolute;
     top: 1%;
     right: 10%;
   }
   .u-s-I-media {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     position: absolute;
     top: 1%;
     right: 3%;
   }
   .title {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    display: flex;
     font-size: 2.8rem;
-    align-items: center;
     color: white;
-    font-weight: 900;
     position: absolute;
     left: 36%;
     top: 15%;
   }
   .title-text {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    display: flex;
     font-size: 1.8rem;
-    align-items: center;
     color: white;
-    font-weight: 900;
     position: absolute;
     left: 25%;
     top: 23%;
   }
   .text-between {
     display: block;
-    justify-content: center;
     padding-top: 10px;
     font-size: 1.2rem;
-    font-family: Slabo;
-    position: absolute;
-    left: 20%;
+    margin-left: 20%;
     width: 60%;
     color: white;
   }
-  .sobre {
-    position: absolute;
-    right: 53%;
+  .container {
+    margin-top: 2%;
   }
-  .fornecedores {
-    position: absolute;
-    right: 35%;
+  .image {
+    margin-left: 5%;
+    max-width: 90%;
   }
-  .eventos {
-    position: absolute;
-    right: 17%;
+  .image img {
+    max-width: 100%;
+    height: 100%;
   }
-  /*.options{
-      position:absolute;
-      bottom: -1850px;
-      position: relative;
-      margin-left: 26%;
+  .texxt {
+    margin-top: 1%;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .tiltle {
+    margin: 0 0;
+  }
+  /*.Horarios{
       color: white;
-      font-size: 30px;
+      position: absolute;
+      top: 254%;
+      left: 20%;
+  }
+  .local{
+      color: white;
+      position: absolute;
+      top: 254%;
+      left: 45%;
+  }
+  .contato{
+      color: white;
+      position: absolute;
+      top: 254%;
+      left: 71.5%;
   }*/
-  .dias {
-    color: white;
-    position: absolute;
-    top: 304%;
-    left: 7%;
+  .middle-text {
+    top: 50%; /* Vertically center */
+    left: 49%; /* Horizontally center */
+    transform: translate(-50%, -100%); /* Center both horizontally and vertically */
   }
-  .local {
-    color: white;
-    position: absolute;
-    top: 304%;
-    left: 36%;
+  .left-text {
+    top: 50%; /* Vertically center */
+    left: 10%; /* Adjust the left position as needed */
+    transform: translate(0, -100%); /* Center vertically */
   }
-  .contato {
-    color: white;
-    position: absolute;
-    top: 304%;
-    left: 67%;
+  .right-text {
+    top: 50%; /* Vertically center */
+    right: 3%; /* Adjust the right position as needed */
+    transform: translate(0, -85%); /* Center vertically */
   }
 }
 /*.options-f{
@@ -417,16 +381,14 @@ h1 {
   text-decoration: underline;
 }
 
-.categories {
-  position: relative;
-}
-
 .catego {
+  position: relative;
   font-size: 2.5rem;
 }
 
-.space {
-  margin: 5px;
+.categories {
+  position: relative;
+  bottom: 700%;
 }
 
 .s-media {
@@ -439,9 +401,18 @@ h1 {
   left: 10px;
 }
 
-@media (min-width: 300px) and (max-width: 589px) {
+@media (min-width: 200px) and (max-width: 589px) {
   :root {
     font-size: 12px;
+  }
+  .pages-buttons {
+    position: absolute;
+    left: 0%;
+    margin-right: 0px;
+    opacity: 0;
+  }
+  .pages-buttons-space {
+    margin-right: 0px;
   }
   .t-social {
     height: 25px;
@@ -468,72 +439,79 @@ h1 {
   }
   .title {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 2.4rem;
+    font-size: 2.1rem;
     color: white;
-    font-weight: 900;
     position: absolute;
-    left: 25%;
+    left: 15%;
     top: 10%;
   }
   .title-text {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    display: flex;
-    font-size: 1.9rem;
-    align-items: center;
+    font-size: 1.5rem;
     color: white;
-    font-weight: 900;
     position: absolute;
-    left: 20%;
+    left: 15%;
     top: 18%;
   }
   .text-between {
     display: block;
-    justify-content: center;
     padding-top: 10px;
     font-size: 1.3rem;
-    font-family: Slabo;
-    position: absolute;
-    left: 20%;
-    width: 65%;
+    margin-left: 10%;
+    width: 70%;
     color: white;
   }
-  .sobre {
-    position: absolute;
-    right: 205%;
+  .container {
+    margin-top: 2%;
   }
-  .fornecedores {
-    position: absolute;
-    right: 200%;
+  .image {
+    margin-left: 5%;
+    max-width: 90%;
   }
-  .eventos {
-    position: absolute;
-    right: 300%;
+  .image img {
+    max-width: 100%;
+    height: 100%;
   }
-  /*.options{
-      position:absolute;
-      bottom: -1850px;
-      position: relative;
-      margin-left: 26%;
+  .texxt {
+    margin-top: 1%;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .tiltle {
+    margin: 0 0;
+  }
+  /*.Horarios{
       color: white;
-      font-size: 30px;
+      position: absolute;
+      top: 246%;
+      left: 20%;
+  }
+  .local{
+      color: white;
+      position: absolute;
+      top: 265%;
+      left: 20%;
+  }
+  .contato{
+      color: white;
+      position: absolute;
+      top: 282%;
+      left: 20%;
   }*/
-  .dias {
-    color: white;
-    position: absolute;
-    top: 287%;
-    left: 30%;
+  .middle-text {
+    top: 55%; /* Vertically center */
+    left: 25%; /* Horizontally center */
+    transform: translate(0, -100%); /* Center both horizontally and vertically */
   }
-  .local {
-    color: white;
-    position: absolute;
-    top: 304%;
-    left: 30%;
+  .left-text {
+    top: 30%; /* Vertically center */
+    left: 25%; /* Adjust the left position as needed */
+    transform: translate(0, -100%); /* Center vertically */
   }
-  .contato {
-    color: white;
-    position: absolute;
-    top: 324%;
-    left: 30%;
+  .right-text {
+    top: 80%; /* Vertically center */
+    left: 25%; /* Adjust the right position as needed */
+    transform: translate(0, -85%); /* Center vertically */
   }
 }
 /*.options-f{
@@ -545,16 +523,13 @@ h1 {
   text-decoration: underline;
 }
 
+.catego {
+  font-size: 2rem;
+}
+
 .categories {
   position: relative;
-}
-
-.catego {
-  font-size: 2.5rem;
-}
-
-.space {
-  margin: 5px;
+  bottom: 550%;
 }
 
 .s-media {
@@ -563,72 +538,42 @@ h1 {
   border-radius: 7px;
   border: none;
   position: relative;
-  top: 5px;
+  top: 10px;
   left: 10px;
 }
 
-/*.social{
-    height: 30px;
-    width: 30px;
-    border-radius: 5px;   
-    position: relative;
-    right: 6px;
-    bottom: 1px;
-    object-fit: cover;
-}*/
-body::-webkit-scrollbar {
-  width: 8px;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #888; /* Scrollbar thumb color */
-  border-radius: 4px;
-}
-
-body::-webkit-scrollbar-thumb:hover {
-  background-color: #555; /* Scrollbar thumb color on hover */
+.f-white {
+  color: white;
 }
 
 @media (min-width: 1024px) {
   :root {
     font-size: 16px;
   }
-  .divid {
-    color: transparent;
-  }
   .title {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     position: absolute;
-    left: 39%;
-    top: 10%;
-  }
-  body {
-    background-color: rgb(44, 44, 44);
+    left: 40%;
+    top: 5%;
   }
   .ima {
-    position: absolute;
-    left: 15%;
+    margin-left: 15%;
     object-fit: cover;
     height: 750px;
     width: 70%;
   }
-  .restaurante {
-    height: 30%;
-    width: 40%;
-    object-fit: cover;
-  }
   .text {
     height: 64%;
-    width: 30%;
+    width: 40%;
     position: absolute;
-    left: 33%;
-    top: 16%;
+    left: 29%;
+    top: 17%;
   }
   .font {
     font-size: 1.25rem;
   }
   .detalhes {
-    width: 90%;
+    width: 100%;
     color: white;
     text-shadow: 3px 3px 4px black;
     position: absolute;
@@ -636,99 +581,31 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .jackquin {
     object-fit: cover;
-    width: 40%;
-    height: 60%;
-    position: absolute;
-    top: 110%;
-  }
-  .jackquin-2 {
-    object-fit: cover;
-    width: 40%;
-    height: 50%;
-    position: absolute;
-    top: 173%;
-  }
-  .jackquin-3 {
-    width: 0%;
-    height: 0%;
-  }
-  .jackquin-4 {
-    object-fit: cover;
-    width: 40%;
+    width: 100%;
     height: 100%;
-    position: absolute;
-    top: 232%;
-  }
-  .f-white {
-    color: white;
-  }
-  .j-falencia {
-    position: absolute;
-    left: 43%;
-    top: 110%;
-  }
-  .j-text {
-    position: absolute;
-    font-size: 1.1rem;
-    width: 50%;
-    left: 43%;
-    top: 122%;
-  }
-  .dias {
-    color: white;
-    position: absolute;
-    top: 358%;
-    left: 27%;
-  }
-  .local {
-    color: white;
-    position: absolute;
-    top: 358%;
-    left: 45%;
-  }
-  .contato {
-    color: white;
-    position: absolute;
-    top: 358%;
-    left: 67%;
-  }
-  .footer {
-    top: 342%;
   }
 }
 @media (min-width: 590px) and (max-width: 1023px) {
   :root {
     font-size: 14px;
   }
-  .divid {
-    color: transparent;
-  }
   .title {
     font-size: 2.8rem;
     position: absolute;
-    left: 24%;
+    left: 31%;
     top: 7%;
   }
-  body {
-    background-color: rgb(44, 44, 44);
-  }
   .ima {
-    position: absolute;
     object-fit: cover;
     height: 750px;
     width: 100%;
   }
-  .restaurante {
-    height: 30%;
-    width: 40%;
-    object-fit: cover;
-  }
   .text {
     height: 45%;
-    width: 70%;
+    width: 80%;
     position: absolute;
     left: 10%;
-    top: 11%;
+    top: 16%;
   }
   .font {
     font-size: 1.3rem;
@@ -742,107 +619,34 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .jackquin {
     object-fit: cover;
-    width: 40%;
-    height: 72%;
-    position: absolute;
-    top: 111%;
-  }
-  .jackquin-2 {
-    object-fit: cover;
-    width: 40%;
-    height: 70%;
-    position: absolute;
-    top: 195%;
-  }
-  .jackquin-3 {
-    width: 0%;
-    height: 0%;
-  }
-  .jackquin-4 {
-    object-fit: cover;
-    width: 40%;
-    height: 120%;
-    position: absolute;
-    top: 272%;
-  }
-  .f-white {
-    color: white;
-  }
-  .j-falencia {
-    position: absolute;
-    left: 43%;
-    top: 110%;
-  }
-  .j-text {
-    position: absolute;
-    font-size: 1rem;
-    width: 50%;
-    left: 43%;
-    top: 122%;
-  }
-  .dias {
-    color: white;
-    position: absolute;
-    top: 434%;
-    left: 10%;
-  }
-  .local {
-    color: white;
-    position: absolute;
-    top: 434%;
-    left: 38%;
-  }
-  .contato {
-    color: white;
-    position: absolute;
-    top: 434%;
-    left: 67%;
-  }
-  .footer {
-    top: 399%;
+    width: 100%;
     height: 100%;
   }
 }
-@media (min-width: 300px) and (max-width: 589px) {
+@media (min-width: 200px) and (max-width: 589px) {
   :root {
     font-size: 12px;
   }
-  .divid {
-    color: transparent;
-    padding-top: 100%;
-  }
-  .d {
-    padding-top: 4%;
-  }
-  .h {
-    font-size: 2rem;
-    position: relative;
-    top: 30%;
-  }
   .title {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     position: absolute;
-    left: 23%;
-    top: 10%;
-  }
-  body {
-    background-color: rgb(44, 44, 44);
+    left: 18%;
+    top: 5%;
   }
   .ima {
-    position: absolute;
     object-fit: cover;
     height: 750px;
     width: 100%;
   }
   .text {
     height: 65%;
-    width: 90%;
+    width: 97%;
     position: absolute;
-    left: 5%;
-    top: 15%;
+    left: 2.5%;
+    top: 12%;
   }
   .font {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .detalhes {
     width: 90%;
@@ -853,73 +657,8 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .jackquin {
     object-fit: cover;
-    width: 90%;
-    height: 35%;
-    position: absolute;
-    left: 5%;
-    top: 111%;
-  }
-  .jackquin-2 {
-    object-fit: cover;
-    width: 90%;
-    height: 35%;
-    position: absolute;
-    left: 5%;
-    top: 235%;
-  }
-  .jackquin-3 {
-    object-fit: cover;
-    width: 90%;
-    height: 35%;
-    position: absolute;
-    left: 5%;
-    top: 400%;
-  }
-  .jackquin-4 {
-    object-fit: cover;
-    width: 90%;
-    height: 35%;
-    position: absolute;
-    left: 5%;
-    top: 557%;
-  }
-  .f-white {
-    color: white;
-  }
-  .j-falencia {
-    font-size: 1.4rem;
-    width: 70%;
-    position: absolute;
-    left: 10%;
-    top: 101%;
-  }
-  .j-text {
-    position: absolute;
-    font-size: 1.3rem;
-    width: 80%;
-    left: 10%;
-    top: 147%;
-  }
-  .dias {
-    color: white;
-    position: absolute;
-    top: 676%;
-    left: 21%;
-  }
-  .local {
-    color: white;
-    position: absolute;
-    top: 695%;
-    left: 21%;
-  }
-  .contato {
-    color: white;
-    position: absolute;
-    top: 714%;
-    left: 20%;
-  }
-  .footer {
-    top: 664%;
+    width: 100%;
+    height: 100%;
   }
 }
 

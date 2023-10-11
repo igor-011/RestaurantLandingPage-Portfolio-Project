@@ -7,65 +7,57 @@ body{
 body::-webkit-scrollbar {
     width: 8px;
   }
-  
-body::-webkit-scrollbar-thumb {
-    background-color: #888; /* Scrollbar thumb color */
-    border-radius: 4px;
-  }
-  
-body::-webkit-scrollbar-thumb:hover {
-    background-color: #555; /* Scrollbar thumb color on hover */
-  }
+  body::-webkit-scrollbar-thumb {
+      background-color: #888; /* Scrollbar thumb color */
+      border-radius: 4px;
+    }
+    
+    body::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Scrollbar thumb color on hover */
+    }
+p{
+      margin: 5px;
+}
+.f-white{
+    color: white;
+}
+.container{
+    position: relative;
+}
+.texto{
+    position: absolute;
+    color: white;
+}
 button{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
     border: none;
     height: 40px;
     width: 100px;
     background-color: transparent;
     color: white;
-    margin: 5px 25px 0px 0px;
 }
 button:hover{
     cursor: pointer;
 }
+.text-shadow-light{
+    text-shadow: 2px 2px 4px black;
+}
+.text-shadow-dark{
+    text-shadow: 3px 3px 6px black;
+}
 
-h1{
-    font-weight: bold;
-    margin: 0px;
-    padding: 0px;
-}
-.title{
-    text-shadow: 2px 2px 4px black;
-}
-.title-text{
-    text-shadow: 2px 2px 4px black;
-}
-.dias{
-    text-shadow: 3px 3px 6px black;
-}
-.local{
-    text-shadow: 3px 3px 6px black;
-}
-.contato{
-    text-shadow: 3px 3px 6px black;
-}
-.Fornecedores{
-    text-shadow: 2px 2px 4px black;
-}
-.bastidores{
-    text-shadow: 2px 2px 4px black;
-}
-.Eventos{
-    text-shadow: 2px 2px 4px black;
-}
-.categories{
-    text-shadow: 2px 2px 4px black;
-}
 @media(min-width: 1024px){
 
 :root{
     font-size: 16px;
+}
+.pages-buttons{
+    position: absolute;
+    left: 39%;
+    margin-right: 10px;
+}
+.pages-buttons-space{
+    margin-right: 13px;
 }
 .t-social{
     height: 25px;
@@ -76,92 +68,109 @@ h1{
     bottom: 1px;
     object-fit: cover;
 }
-
 .u-s-T-media{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     position: absolute;
     top: 1%;
     right: 15%; 
 }
 .u-s-I-media{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     position: absolute;
     top: 1%;
     right: 12%;
 }
 .title{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
     font-size: 2.8rem;
-    align-items: center;
     color: white;
-    font-weight:900;
     position: absolute;
     left: 42%;
     top:  15%;   
 }
 .title-text{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     font-size: 2.4rem;
-    align-items: center;
     color: white;
-    font-weight: 900;
     position: absolute;
     left: 31%;
     top: 23%;
 }
 .text-between{
     display: block;
-    justify-content: center;
-    margin: 0px 0px 10px;
-    padding-top:  15px;
     font-size: 1.1rem;
-    font-family: Slabo;
-    position: absolute;
-    left: 20%;
-    width: 60%;
+    margin-left: 24%;
+    width: 55%;
     color: white;
 }
-.sobre{
-    position: absolute;
-    right: 58%;
+.container{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
 }
-.fornecedores{
-    position: absolute;
-    right: 45%;
+.image{
+    flex: 1;
+    max-width: 50%;
 }
-.eventos{
-    position: absolute;
-    right: 32%;
+.image img{
+    max-width: 100%;
+    height: 100%;
 }
-.options{
-    position:absolute;
-    bottom: -1850px;
+.texxt{
+    flex: 1;
+    max-width: 50%;
+    padding: 0 20px;
+}
+.tiltle{
+    margin: 0 0;
+    
+}
+.catego{
     position: relative;
-    margin-left: 36%;
-    color: white;
-    font-size: 30px;
+    font-size: 2.5rem;
 }
-.dias{
+.categories{
+    position: relative;
+    right: 3%;
+    top: -700%;
+    
+}
+/*.Horarios{
     color: white;
     position: absolute;
-    top: 304%;
+    top: 290%;
     left: 27%;
 }
 .local{
     color: white;
     position: absolute;
-    top: 304%;
+    top: 290%;
     left: 45%;
 }
 .contato{
     color: white;
     position: absolute;
-    top: 304%;
+    top: 290%;
     left: 67%;
+}*/
+.middle-text {
+    top: 50%; /* Vertically center */
+    left: 50%; /* Horizontally center */
+    transform: translate(-50%, -100%); /* Center both horizontally and vertically */
+}
+
+.left-text {
+    top: 50%; /* Vertically center */
+    left: 24%; /* Adjust the left position as needed */
+    transform: translate(0, -100%); /* Center vertically */
+}
+
+.right-text {
+    top: 50%; /* Vertically center */
+    right: 14%; /* Adjust the right position as needed */
+    transform: translate(0, -85%); /* Center vertically */
 }
 }
 
@@ -170,6 +179,14 @@ h1{
 :root{
     font-size: 14px;
 }
+.pages-buttons{
+    position: absolute;
+    left: 30%;
+    margin-right: 10px;
+}
+.pages-buttons-space{
+    margin-right: 15px;
+}
 .t-social{
     height: 25px;
     width: 25px;
@@ -181,109 +198,93 @@ h1{
 }
 
 .u-s-T-media{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     position: absolute;
     top: 1%;
     right: 10%; 
 }
 .u-s-I-media{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     position: absolute;
     top: 1%;
     right: 3%;
 }
 .title{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
     font-size: 2.8rem;
-    align-items: center;
     color: white;
-    font-weight:900;
     position: absolute;
     left: 36%;
     top:  15%;   
 }
 .title-text{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    font-size: 1.8rem;
-    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    font-size: 1.8rem;  
     color: white;
-    font-weight: 900;
     position: absolute;
     left: 25%;
     top: 23%;
 }
 .text-between{
-    display: block;
-    justify-content: center;
+    display: block;   
     padding-top:  10px;
     font-size: 1.2rem;
-    font-family: Slabo;
-    position: absolute;
-    left: 20%;
+    margin-left: 20%;
     width: 60%;
     color: white;
 }
-.sobre{
-    position: absolute;
-    right: 53%;
+.container{
+    margin-top: 2%;
 }
-.fornecedores{
-    position: absolute;
-    right: 35%;
+.image{
+    margin-left: 5%;
+    max-width: 90%;
 }
-.eventos{
-    position: absolute;
-    right: 17%;
+.image img{
+    max-width: 100%;
+    height: 100%;
 }
-/*.options{
-    position:absolute;
-    bottom: -1850px;
-    position: relative;
-    margin-left: 26%;
-    color: white;
-    font-size: 30px;
-}*/
-.dias{
-    color: white;
-    position: absolute;
-    top: 304%;
-    left: 7%;
+.texxt{
+    margin-top: 1%;
+    max-width: 100%;
+    padding: 0 20px;
 }
-.local{
-    color: white;
-    position: absolute;
-    top: 304%;
-    left: 36%;
+.tiltle{
+    margin: 0 0;
+    
 }
-.contato{
-    color: white;
-    position: absolute;
-    top: 304%;
-    left: 67%;
+.middle-text {
+    top: 50%; /* Vertically center */
+    left: 49%; /* Horizontally center */
+    transform: translate(-50%, -100%); /* Center both horizontally and vertically */
 }
 
+.left-text {
+    top: 50%; /* Vertically center */
+    left: 10%; /* Adjust the left position as needed */
+    transform: translate(0, -100%); /* Center vertically */
 }
 
-/*.options-f{
-    font-size: 1.1rem;
-    text-decoration: underline;
-}*/
+.right-text {
+    top: 50%; /* Vertically center */
+    right: 3%; /* Adjust the right position as needed */
+    transform: translate(0, -85%); /* Center vertically */
+}
+}
 .options-t{
     font-size: 1rem;
     text-decoration: underline;
 }
-.categories{
-    position: relative;
-}
+
 .catego{
+    position: relative;
     font-size: 2.5rem;
 }
-.space{
-    margin: 5px;
+.categories{
+    position: relative;
+    bottom: 700%;
 }
 .s-media{
     height: 25px;
@@ -295,10 +296,19 @@ h1{
     left: 10px;
 }
 
-@media(min-width: 300px) and (max-width: 589px) {
+@media(min-width: 200px) and (max-width: 589px) {
 
 :root{
     font-size: 12px;
+}
+.pages-buttons{
+    position: absolute;
+    left: 0%;
+    margin-right: 0px;
+    opacity: 0;
+}
+.pages-buttons-space{
+    margin-right: 0px;
 }
 .t-social{
     height: 25px;
@@ -326,91 +336,76 @@ h1{
 }
 .title{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2.4rem;
+    font-size: 2.1rem;
     color: white;
-    font-weight:900;
     position: absolute;
-    left: 25%;
+    left: 15%;
     top:  10%;   
 }
 .title-text{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    font-size: 1.9rem;
-    align-items: center;
+    font-size: 1.5rem;
     color: white;
-    font-weight: 900;
     position: absolute;
-    left: 20%;
+    left: 15%;
     top: 18%;
 }
 .text-between{
     display: block;
-    justify-content: center;
     padding-top:  10px;
     font-size: 1.3rem;
-    font-family: Slabo;
-    position: absolute;
-    left: 20%;
-    width: 65%;
+    margin-left: 10%;
+    width: 70%;
     color: white;
 }
-.sobre{  
-    position: absolute;
-    right: 205%;
+.container{
+    margin-top: 2%;
 }
-.fornecedores{
-    position: absolute;
-    right: 200%;
+.image{
+    margin-left: 5%;
+    max-width: 90%;
 }
-.eventos{
-    position: absolute;
-    right: 300%;
+.image img{
+    max-width: 100%;
+    height: 100%;
 }
-/*.options{
-    position:absolute;
-    bottom: -1850px;
-    position: relative;
-    margin-left: 26%;
-    color: white;
-    font-size: 30px;
-}*/
-.dias{
-    color: white;
-    position: absolute;
-    top: 287%;
-    left: 30%;
+.texxt{
+    margin-top: 1%;
+    max-width: 100%;
+    padding: 0 20px;
 }
-.local{
-    color: white;
-    position: absolute;
-    top: 304%;
-    left: 30%;
+.tiltle{
+    margin: 0 0;
+    
 }
-.contato{
-    color: white;
-    position: absolute;
-    top: 324%;
-    left: 30%;
-}
+.middle-text {
+    top: 55%; /* Vertically center */
+    left: 25%; /* Horizontally center */
+    transform: translate(0, -100%); /* Center both horizontally and vertically */
 }
 
-/*.options-f{
-    font-size: 1.1rem;
-    text-decoration: underline;
-}*/
+.left-text {
+    top: 30%; /* Vertically center */
+    left: 25%; /* Adjust the left position as needed */
+    transform: translate(0, -100%); /* Center vertically */
+}
+
+.right-text {
+    top: 80%; /* Vertically center */
+    left: 25%; /* Adjust the right position as needed */
+    transform: translate(0, -85%); /* Center vertically */
+}
+}
 .options-t{
     font-size: 1rem;
     text-decoration: underline;
 }
+.catego{
+    font-size: 2rem;
+}
 .categories{
     position: relative;
-}
-.catego{
-    font-size: 2.5rem;
-}
-.space{
-    margin: 5px;
+    bottom: 550%;
 }
 .s-media{
     height: 25px;
@@ -418,15 +413,6 @@ h1{
     border-radius: 7px;
     border: none;
     position: relative;
-    top: 5px;
+    top: 10px;
     left: 10px;
 }
-/*.social{
-    height: 30px;
-    width: 30px;
-    border-radius: 5px;   
-    position: relative;
-    right: 6px;
-    bottom: 1px;
-    object-fit: cover;
-}*/
