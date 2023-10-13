@@ -173,6 +173,27 @@ button:hover{
     transform: translate(0, -85%); /* Center vertically */
 }
 }
+#scrollToTopBtn {
+    width: 50px;
+    height: 40px;
+    display: none; /* Initially hidden */
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+    z-index: 99;
+    font-size: 14px;
+    background-color: #333536;
+    color: #fff;
+    border: none;
+    border-radius: 12%;
+    padding: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#scrollToTopBtn:hover{
+    background-color: #fff;
+    color: black;
+}
 
 @media(min-width: 590px) and (max-width: 1023px) {
 
