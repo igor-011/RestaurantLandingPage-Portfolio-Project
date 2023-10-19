@@ -223,6 +223,7 @@ button:hover {
     font-size: 2.5rem;
   }
   .categories {
+    font-size: 0.85rem;
     position: relative;
     right: 3%;
     top: -700%;
@@ -444,7 +445,7 @@ button:hover {
     font-size: 2.1rem;
     color: white;
     position: absolute;
-    left: 15%;
+    left: 29%;
     top: 10%;
   }
   .title-text {
@@ -452,14 +453,14 @@ button:hover {
     font-size: 1.5rem;
     color: white;
     position: absolute;
-    left: 15%;
+    left: 12%;
     top: 18%;
   }
   .text-between {
     display: block;
     padding-top: 10px;
     font-size: 1.3rem;
-    margin-left: 10%;
+    margin-left: 15%;
     width: 70%;
     color: white;
   }
@@ -484,17 +485,17 @@ button:hover {
   }
   .middle-text {
     top: 55%; /* Vertically center */
-    left: 25%; /* Horizontally center */
+    left: 30%; /* Horizontally center */
     transform: translate(0, -100%); /* Center both horizontally and vertically */
   }
   .left-text {
     top: 30%; /* Vertically center */
-    left: 25%; /* Adjust the left position as needed */
+    left: 30%; /* Adjust the left position as needed */
     transform: translate(0, -100%); /* Center vertically */
   }
   .right-text {
     top: 80%; /* Vertically center */
-    left: 25%; /* Adjust the right position as needed */
+    left: 29.5%; /* Adjust the right position as needed */
     transform: translate(0, -85%); /* Center vertically */
   }
 }
@@ -610,7 +611,7 @@ button:hover {
   .title {
     font-size: 2.2rem;
     position: absolute;
-    left: 18%;
+    left: 26%;
     top: 5%;
   }
   .ima {
