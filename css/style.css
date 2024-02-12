@@ -747,8 +747,8 @@ button:hover {
     font-size: 1.5rem;
     color: white;
     position: absolute;
-    left: 12%;
-    top: 18%;
+    left: 18%;
+    top: 16%;
   }
   .text-between {
     display: block;
