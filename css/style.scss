@@ -128,17 +128,18 @@ button:hover{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2.8rem;
     color: white;
-    position: absolute;
-    left: 42%;
-    top:  15%;   
+   position: absolute;
+   bottom: 60%;
+    //left: 42%;
+      
 }
 .title-text{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     font-size: 2.4rem;
     color: white;
-    position: absolute;
-    left: 35%;
-    top: 23%;
+    //position: absolute;
+    //left: 35%;
+    //top: 23%;
 }
 .text-between{
     display: block;
@@ -281,16 +282,16 @@ button:hover{
     font-size: 2.8rem;
     color: white;
     position: absolute;
-    left: 36%;
-    top:  15%;   
+    //left: 36%;
+    bottom:  60%;   
 }
 .title-text{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
     font-size: 1.8rem;  
     color: white;
-    position: absolute;
-    left: 30%;
-    top: 23%;
+    //position: absolute;
+    //left: 30%;
+    //top: 23%;
 }
 .text-between{
     display: block;   
@@ -383,19 +384,21 @@ button:hover{
 
     .title{
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 2.1rem;
+        font-size: 1.9rem;
         color: white;
         position: absolute;
-        left: 32%;
-        top:  12%;   
+        left: 10%;
+        bottom:  60%;   
     }
     .title-text{
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         color: white;
-        position: absolute;
-        left: 25%;
-        top: 18%;
+        position: relative;
+        right: 4%;
+       // position: absolute;
+        //left: 25%;
+        //top: 18%;
     }
     :root{
         font-size: 12px;
@@ -654,19 +657,20 @@ button:hover{
 }
 .title{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2.1rem;
+    font-size: 1.9rem;
     color: white;
     position: absolute;
-    left: 29%;
-    top:  10%;   
+    right: 40%;
+    bottom:  60%;   
 }
 .title-text{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
     color: white;
-    position: absolute;
-    left: 18%;
-    top: 16%;
+    position: relative;
+    right: 15%;
+    //left: 18%;
+    //top: 16%;
 }
 .text-between{
     display: block;
